@@ -1,0 +1,17 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.25rem;
+  transition: all 0.3s ease;
+  color: white;
+
+  &.primary {
+    background-color: #ED0000;
+  }
+
+  &.secondary {
+    border: 1px solid #ED1B00;
+    color: #521D16;
+  }
+}
+
